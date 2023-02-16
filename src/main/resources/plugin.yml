@@ -1,0 +1,14 @@
+name: EnchantAll
+version: 1.0
+main: saber.enchantall.EnchantAll
+api-version: 1.18
+author: Saber
+description: A simple command to put max vanilla enchants on the held item
+commands:
+  enchantmax:
+    description: fully enchants held item
+    usage: /<command>
+permissions:
+  enchantall.enchant:
+    description: allows players to use /enchantall
+    default: op
